@@ -799,21 +799,21 @@ const BlogContent = () => (
       <TextContent>
         While <b>Next.js 15</b> offers many new features, some users may
         experience compatibility issues or face a learning curve with the new
-        routing changes. It's best to assess these changes and ensure your team
+        routing changes. It is best to assess these changes and ensure your team
         is comfortable with them before a full upgrade
       </TextContent>
       <HeadingH5 headingFive="5. How does Next.js 15 improve SEO for my website?" />
       <TextContent>
-        With <b>server-side rendering</b> and <b>dynamic routing,</b> Next.js 15
+        With <b>server-side rendering</b> and <b>dynamic routing</b> Next.js 15
         enhances SEO by allowing search engines to index dynamic content more
         effectively. Faster page loads and better caching also contribute to
         improved SEO performance.
       </TextContent>
       <HeadingH5 headingFive="6. Is Next.js 15 beginner-friendly?" />
       <TextContent>
-        While Next.js 15 is designed with developers in mind, beginners can
+        While Next.js 15 is designed with developers in mind beginners can
         benefit from the well-structured documentation and community resources.
-        However, learning the basics of <b>React</b> and <b>JavaScript</b> will
+        However learning the basics of <b>React</b> and <b>JavaScript</b> will
         make it easier to get started with this framework.
       </TextContent>
     </section>
