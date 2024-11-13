@@ -14,7 +14,7 @@ const BlogContent = () => (
   <>
     <section id="introduction">
       <div className="flex flex-col justify-center lg:w-[70%] w-[80%] lg:mx-auto mx-auto lg:mt-0 -mt-5">
-        <h5 className="text-mainHeadingsColor lg:text-[20px] 2xl:text-[30px] text-[18px] font-bold dark:text-white font-inter">
+        <h5 className="text-mainHeadingsColor lg:text-[20px] 2xl:text-[30px] text-[17px] font-bold dark:text-white font-inter">
           Introduction
         </h5>
         <p className="text-foreground mt-3 text-[13px] 2xl:text-[21px] xl:text-[17px] dark:text-white font-inter ">
@@ -24,7 +24,7 @@ const BlogContent = () => (
           version sets a new standard in building dynamic, high-performance
           websites.
         </p>
-        <h5 className="text-mainHeadingsColor lg:text-[20px] 2xl:text-[30px] text-[18px]  dark:text-white  font-bold mt-3  font-inter">
+        <h5 className="text-mainHeadingsColor lg:text-[20px] 2xl:text-[30px] text-[17px]  dark:text-white  font-bold mt-3  font-inter">
           What is New in Next.js 15?
         </h5>
         <div className="">
@@ -49,7 +49,7 @@ const BlogContent = () => (
             </li>
           </ul>
         </div>
-        <h5 className="text-mainHeadingsColor dark:text-white 2xl:text-[30px] lg:text-[20px]  text-[18px] font-bold mt-3 font-inter">
+        <h5 className="text-mainHeadingsColor dark:text-white 2xl:text-[30px] lg:text-[20px]  text-[17px] font-bold mt-3 font-inter">
           Why Upgrade to Next.js 15?
         </h5>
         <ul className="list-disc ml-4 font-inter xl:text-[17px] 2xl:text-[21px] text-[13px] lg:text-[15px]">
@@ -66,7 +66,7 @@ const BlogContent = () => (
             technologies.
           </li>
         </ul>
-        <h5 className="text-mainHeadingsColor dark:text-white 2xl:text-[30px] lg:text-[20px]   text-[18px]  font-bold mt-3 font-inter">
+        <h5 className="text-mainHeadingsColor dark:text-white 2xl:text-[30px] lg:text-[20px]   text-[17px]  font-bold mt-3 font-inter">
           Key Features at a Glance:
         </h5>
         <ul className="list-disc ml-4 font-inter xl:text-[17px] 2xl:text-[21px] text-[13px] lg:text-[15px]">
@@ -81,12 +81,12 @@ const BlogContent = () => (
             Simplified data fetching
           </li>
           <li className="mt-3 text-foreground dark:text-white  flex sm:flex-row flex-col items-start">
-            <FaGlobe className="mr-2 mt-1 opacity-60 h-5 w-5" />
+            <FaGlobe className="mr-2 mt-1 opacity-60 h-6 w-6" />
             <b className="mr-[5px]"> Advanced Routing Options:</b>
             <span>Flexible routing for complex applications</span>
           </li>
           <li className="mt-3 text-foreground dark:text-white  flex sm:flex-row flex-col items-start">
-            <IoMdSettings className="mr-2 mt-1 opacity-60 h-5 w-5" />
+            <IoMdSettings className="mr-2 mt-1 opacity-60 h-6 w-6" />
             <b> Developer Experience: </b> Enhanced debugging and error handling
           </li>
         </ul>

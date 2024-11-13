@@ -104,7 +104,7 @@ const Navbar = () => {
             <a
               onClick={toggleMenu}
               href="#troubleshooting"
-              className="hover:text-black opacity-55 dark:text-white dark:opacity-65 hover:dark:text-white hover:dark:opacity-100"
+              className="hover:text-black opacity-55 dark:text-white dark:opacity-65 hover:dark:text-white hover:dark:opacity-100 font-semibold"
             >
               Troubleshooting
             </a>

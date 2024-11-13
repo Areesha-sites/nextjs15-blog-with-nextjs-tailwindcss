@@ -3,7 +3,6 @@ import React from "react";
 interface TextContentProps {
   children: React.ReactNode;
 }
-
 const TextContent: React.FC<TextContentProps> = ({ children }) => {
   return (
     <div className="flex flex-col justify-center lg:w-[70%] w-[80%] mx-auto">
