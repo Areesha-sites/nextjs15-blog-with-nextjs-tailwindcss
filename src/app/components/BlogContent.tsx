@@ -309,7 +309,7 @@ const BlogContent = () => (
         <ul className="list-disc ml-5">
           <li className="mt-3">
             <b>Use Case: </b>
-            Next.js 15's improved error boundaries prevent application crashes
+            Next.js 15s improved error boundaries prevent application crashes
             by displaying custom error messages, ensuring a seamless experience.
             For example, in a SaaS app, users see a helpful error message
             instead of a blank screen.
@@ -645,7 +645,7 @@ const BlogContent = () => (
       <ul className="list-disc ml-5 space-y-3">
         <li>
           <b>Testimonial: </b>
-          “Next.js 15 has been a game changer for us. The{" "}
+        Next.js 15 has been a game changer for us. The{" "}
           <b>new routing system</b> and <b>server actions</b> have significantly
           reduced the time we spend on managing backend logic, allowing us to
           focus more on building features.

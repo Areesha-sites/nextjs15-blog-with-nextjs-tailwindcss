@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { IoTriangleSharp } from "react-icons/io5";
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 const Header = () => {
   return (
     <>
