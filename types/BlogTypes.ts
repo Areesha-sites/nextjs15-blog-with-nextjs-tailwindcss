@@ -7,7 +7,7 @@ export interface Heading5PropsType {
 export interface Heading6PropsType {
   headingSix: string;
 }
-export interface TextContentProps {
-  children: React.ReactNode;
-  image: string;
-}
+// export interface TextContentProps {
+//   children: React.ReactNode;
+//   image: string;
+// }
