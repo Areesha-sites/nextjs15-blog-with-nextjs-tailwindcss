@@ -9,7 +9,6 @@ import { FaFire } from "react-icons/fa";
 import { FaLaptop } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa6";
 import { IoMdSettings } from "react-icons/io";
-
 const BlogContent = () => (
   <>
     <section id="introduction">
@@ -17,7 +16,7 @@ const BlogContent = () => (
         <h5 className="text-mainHeadingsColor lg:text-[20px] 2xl:text-[30px] text-[17px] font-bold dark:text-white font-inter">
           Introduction
         </h5>
-        <p className="text-foreground mt-3 text-[13px] 2xl:text-[21px] xl:text-[17px] dark:text-white font-inter ">
+        <p className="text-foreground mt-3 text-[13px] 2xl:text-[21px] xl:text-[15px] dark:text-white font-inter ">
           Next.js 15 introduces a new era in web development with its powerful
           features, optimized performance, and enhanced developer experience.
           Designed to empower developers with more flexibility and speed, this
@@ -28,7 +27,7 @@ const BlogContent = () => (
           What is New in Next.js 15?
         </h5>
         <div className="">
-          <ul className="list-disc ml-4 font-inter 2xl:text-[21px] text-[13px] xl:text-[17px] lg:text-[15px]">
+          <ul className="list-disc ml-4 font-inter 2xl:text-[21px] text-[13px] xl:text-[15px] lg:text-[15px]">
             <li className="mt-3 text-foreground dark:text-white ">
               <b> Improved Performance: </b>
               Next.js 15 brings faster load times, making it perfect for
@@ -52,7 +51,7 @@ const BlogContent = () => (
         <h5 className="text-mainHeadingsColor dark:text-white 2xl:text-[30px] lg:text-[20px]  text-[17px] font-bold mt-3 font-inter">
           Why Upgrade to Next.js 15?
         </h5>
-        <ul className="list-disc ml-4 font-inter xl:text-[17px] 2xl:text-[21px] text-[13px] lg:text-[15px]">
+        <ul className="list-disc ml-4 font-inter xl:text-[15px] 2xl:text-[21px] text-[13px] lg:text-[15px]">
           <li className="mt-3 text-foreground dark:text-white ">
             <b> Better Performance:</b> for faster, more efficient websites.
           </li>
@@ -69,103 +68,188 @@ const BlogContent = () => (
         <h5 className="text-mainHeadingsColor dark:text-white 2xl:text-[30px] lg:text-[20px]   text-[17px]  font-bold mt-3 font-inter">
           Key Features at a Glance:
         </h5>
-        <ul className="list-disc ml-4 font-inter xl:text-[17px] 2xl:text-[21px] text-[13px] lg:text-[15px]">
+        <ul className="list-disc ml-4 font-inter xl:text-[15px] 2xl:text-[21px] text-[13px] lg:text-[15px]">
           <li className="mt-3 text-foreground dark:text-white  flex sm:flex-row flex-col items-start">
-            <FaFire className="mr-2 mt-1 opacity-60 flex-shrink-0 h-5 w-5" />
+            <FaFire className="mr-2 mt-1 opacity-60 flex-shrink-0 h-4 w-4" />
             <b className=" mr-[5px]"> Performance Boost:</b>
             Fast load times and optimized build sizes
           </li>
           <li className="mt-3 text-foreground dark:text-white  flex sm:flex-row flex-col items-start">
-            <FaLaptop className="mr-2 mt-1 opacity-60 h-5 w-5" />
+            <FaLaptop className="mr-2 mt-1 opacity-60 h-4 w-4" />
             <b className=" mr-[5px]"> New Server Actions:</b>
             Simplified data fetching
           </li>
           <li className="mt-3 text-foreground dark:text-white  flex sm:flex-row flex-col items-start">
-            <FaGlobe className="mr-2 mt-1 opacity-60 h-6 w-6" />
+            <FaGlobe className="mr-2 mt-1 opacity-60 h-4 w-4" />
             <b className="mr-[5px]"> Advanced Routing Options:</b>
             <span>Flexible routing for complex applications</span>
           </li>
           <li className="mt-3 text-foreground dark:text-white  flex sm:flex-row flex-col items-start">
-            <IoMdSettings className="mr-2 mt-1 opacity-60 h-6 w-6" />
+            <IoMdSettings className="mr-2 mt-1 opacity-60 h-4 w-4" />
             <b> Developer Experience: </b> Enhanced debugging and error handling
           </li>
         </ul>
       </div>
     </section>
+    {/* highlighted feautres */}
     <div className="border-b-[1px] border-mainHeadingsColor dark:border-white dark:opacity-100 opacity-30 w-[70%] mx-auto mt-8 mb-11"></div>
     <section id="features">
       <HeadingH3 headingThree="Highlighted Features of Next.js 15" />
       <HeadingH5 headingFive="Performance Improvements: Unmatched Speed & Efficiency" />
       <TextContent>
-        Next.js 15 is built to deliver lightning-fast load times and seamless
-        navigation, ensuring users experience minimal delays on high-traffic
-        applications. With an optimized build size, advanced code-splitting, and
-        efficient asset caching, this version maximizes speed and minimizes data
-        load.
+        Next.js 15 is designed with a strong focus on speed and efficiency,
+        delivering an optimal experience even for high-traffic applications. The
+        following features make it stand out:
       </TextContent>
       <TextContent>
         <ul className="list-disc ml-5">
           <li className="mt-3">
             <b>Optimized Build Size: </b>
-            Reduces load times and enhances performance.
+            Next.js 15 reduces the build size, ensuring that only essential code
+            is loaded at runtime, which significantly lowers initial load times
+            and improves performance, particularly on slower networks.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>How it Works: </b>
+            By minimizing the overall bundle size through techniques like
+            tree-shaking and removing unused code, Next.js allows faster page
+            rendering.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>
+            Imagine an online magazine with heavy multimedia content. Optimized
+            build size ensures articles and images load quickly, improving user
+            satisfaction and retention.
           </li>
           <li className="mt-3">
             <b>Improved Code Splitting : </b>
-            Ensures users load only what they need.
+            This feature allows applications to load only what is needed, based
+            on user interactions, which makes loading times faster and enhances
+            responsiveness.
           </li>
+
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            Code-splitting breaks the application into smaller chunks, loading
+            only the required components when needed (e.g., lazy loading
+            components when they are scrolled into view).
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Code Example: </b>
+            Here, <b>HeavyComponent</b> will load only when required, reducing
+            initial page load time.
+          </li>
+          <div className="flex flex-col items-center justify-center w-[100%] mx-auto my-5">
+            <Image
+              src="/improve-code-splitting.png"
+              alt="code-example"
+              height={250}
+              width={400}
+              className="lg:h-[135px] lg:w-[468px] w-[550px] h-[70px] md:h-[150px] 2xl:w-[1000px] 2xl:h-[654px] "
+            />
+          </div>
           <li className="mt-3">
             <b>Efficient Asset Caching: </b>
-            Reduces redundant loads, boosting speed.
+            With smarter caching strategies, Next.js 15 minimizes redundant
+            loads by caching static assets, CSS, and JavaScript, boosting page
+            load speeds for repeat visitors.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            Caching allows the browser to store and reuse assets locally rather
+            than fetching them from the server every time. This reduces network
+            requests and improves speed.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>
+            For an e-commerce website, caching enables faster browsing through
+            product pages, as assets are loaded from cache rather than being
+            fetched repeatedly.
           </li>
         </ul>
       </TextContent>
       {/*code example-1 */}
       <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
         <Image
-          src="/image1.png"
+          src="/effiecient-assets-catching.png"
           alt="code-example"
           height={200}
           width={200}
-          className="lg:h-[325px] lg:w-[500px] w-[550px] h-[180px] md:h-[300px] 2xl:w-[1000px] 2xl:h-[654px]"
+          className="lg:h-[325px] lg:w-[500px] w-[550px] h-[120px] md:h-[300px] 2xl:w-[1000px] 2xl:h-[654px]"
         />
       </div>
-      <HeadingH6 headingSix="Explanation:" />
-      <TextContent>
-        This snippet demonstrates how lazy loading works, loading{" "}
-        <b>HeavyComponent </b>
-        only when required. This can improve initial load times significantly.
-      </TextContent>
       <HeadingH5 headingFive="Enhanced Server Actions: Power Up Your Backend" />
       <TextContent>
-        The new server actions in Next.js 15 enable developers to handle complex
-        server-side tasks with ease, paving the way for more functional and
-        responsive applications.
+        Next.js 15 introduces powerful server actions that streamline
+        server-side operations, making it easier for developers to handle
+        complex tasks on the backend. This upgrade brings numerous benefits:
       </TextContent>
       <TextContent>
         <ul className="list-disc ml-5">
           <li className="mt-3">
             <b>Simplified Data Fetching: </b>
-            Makes backend data retrieval more efficient.
+            Server actions in Next.js 15 make data retrieval more efficient by
+            centralizing API requests on the server, reducing the need for
+            multiple client-side requests.
           </li>
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            This ensures that the page has all necessary data before its
+            rendered, which reduces loading time and enhances SEO by serving
+            fully populated pages.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Code Example: </b>
+            This example demonstrates how data is fetched server-side, so the
+            component receives fully loaded data without additional API calls.
+          </li>
+          <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
+            <Image
+              src="/enhance-server-action.png"
+              alt="code-example"
+              height={250}
+              width={400}
+              className="lg:h-[125px] lg:w-[400px] w-[550px] h-[80px] md:h-[180px] 2xl:w-[1000px] 2xl:h-[654px] brightness-110 contrast-more:z-30"
+            />
+          </div>
           <li className="mt-3">
             <b>Built for Scalability: </b>
-            Handles high data volumes, ideal for large applications.
+            Next.js 15s server actions are designed to handle large amounts of
+            data, making it suitable for data-heavy applications that serve
+            high-traffic environments, like news websites or financial
+            dashboards.
           </li>
+
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            As data volumes grow, Next.js ensures efficient server performance
+            and minimal latency.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>A social media application with millions
+            of posts and user data requires scalable data fetching to manage
+            heavy user traffic seamlessly.
+          </li>
+
           <li className="mt-3">
             <b>Reduced API Calls: </b>
-            Fewer API calls improve performance.
+            Fewer API calls between the client and server improve performance,
+            reduce latency, and can lower server costs.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            By batching multiple API calls into a single server action, Next.js
+            minimizes the number of requests sent over the network.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>
+            An analytics dashboard with multiple data sources can combine these
+            into fewer API calls, providing faster load times and reduced
+            bandwidth usage.
           </li>
         </ul>
       </TextContent>
-      <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
-        <Image
-          src="/image2.png"
-          alt="code-example"
-          height={200}
-          width={200}
-          className="lg:h-[531px] lg:w-[500px] w-[550px] h-[268px] md:h-[500px] 2xl:w-[1000px] 2xl:h-[900px]"
-        />
-      </div>
+     
       <HeadingH6 headingSix="Explanation:" />
       <TextContent>
         This snippet shows a simple example of fetching data using server
@@ -174,78 +258,158 @@ const BlogContent = () => (
       </TextContent>
       <HeadingH5 headingFive="New Router Features: A Leap in Navigation" />
       <TextContent>
-        Next.js 15 introduces game-changing routing features that make
-        navigating complex applications smoother than ever.
+        Next.js 15 takes routing to the next level, introducing new capabilities
+        for building complex and dynamic navigation structures effortlessly.
       </TextContent>
       <TextContent>
         <ul className="list-disc ml-5">
           <li className="mt-3">
             <b>Dynamic Route Matching: </b>
-            Simplifies routing for complex paths.
+            This feature allows you to define routes based on flexible
+            parameters, which is ideal for applications with customizable URL
+            structures
           </li>
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            Dynamic routes simplify the creation of pages that require variable
+            data. Users only load routes relevant to them, improving speed and
+            flexibility.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Code: </b>
+            This setup dynamically renders each product page based on the
+            product ID in the URL.
+          </li>
+
+          <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
+            <Image
+              src="/new-router-feature.png"
+              alt="code-example"
+              height={250}
+              width={400}
+              // className="h-[160px] w-[450px]"
+              className="lg:h-[160px] lg:w-[450px] w-[550px] h-[90px] md:h-[200px] 2xl:w-[1000px] 2xl:h-[654px] brightness-110 contrast-more:z-30"
+            />
+          </div>
+
           <li className="mt-3">
             <b>Nested Routing Support: </b>
-            Enhances application structure.
+            Allows the creation of a hierarchy of routes, which simplifies
+            complex navigation structures and enhances the overall application
+            flow.
           </li>
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            Nested routing enables a clear parent-child relationship in URLs,
+            making it easy to build subpages for product categories, user
+            profiles, or article topics.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>
+            An e-commerce site can have nested routes for products under
+            categories, such as <b>/electronics/laptops</b>, improving
+            organization and navigation.
+          </li>
+
           <li className="mt-3">
-            <b>Use Case Example: </b>
-            An e-commerce site with products under categories.
+            <b>Use Case Example: </b>A blogging platform where each category
+            (e.g., Technology, Lifestyle) contains various posts. Nested routing
+            ensures that the platforms structure is easy to navigate and manage.
           </li>
         </ul>
       </TextContent>
       <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
         <Image
-          src="/image3.png"
+          src="/nested-routing-support.png"
           alt="code-example"
           height={200}
           width={200}
-          className="lg:h-[400px] lg:w-[600px] w-[550px] h-[180px] md:h-[300px] 2xl:w-[1000px] 2xl:h-[600px]"
+          className="lg:h-[270px] lg:w-[600px] w-[400px] h-[100px] md:h-[200px] 2xl:w-[1000px] 2xl:h-[600px]"
         />
       </div>
-      <HeadingH6 headingSix="Explanation:" />
-      <TextContent>
-        Here is a basic setup of a dynamic nested route in Next.js 15, allowing
-        pages to use dynamic parameters for different categories and posts.
-      </TextContent>
+
       <HeadingH5 headingFive="Improved App Router: Simplified and Robust Navigation" />
       <TextContent>
-        Next.js 15s app router offers a seamless, user-friendly experience with
-        advanced error handling, automatic hierarchy, and enhanced usability.
+        Next.js 15s enhanced app router offers a cleaner, more organized
+        navigation experience. Key improvements include error handling and an
+        intuitive, hierarchical approach to route configuration.
       </TextContent>
       <TextContent>
         <ul className="list-disc ml-5">
           <li className="mt-3">
             <b>Enhanced Usability: </b>
-            Configuring routes is now faster.
+            Configuring routes is now quicker and more user-friendly, enabling
+            faster setup times and reduced complexity.
           </li>
+
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            The new router is streamlined to reduce the amount of configuration,
+            letting developers focus on building pages rather than managing
+            complex routing rules.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Code Example: </b>
+            In this example, different sections of the app are routed easily
+            with a single dynamic parameter, simplifying navigation across
+            sections.
+          </li>
+          <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
+            <Image
+              src="/improve-app-router.png"
+              alt="code-example"
+              height={250}
+              width={400}
+              // className="h-[90px] w-[450px]"
+              className="lg:h-[90px] lg:w-[500px] w-[1000px] h-[37px] md:h-[100px] 2xl:w-[1000px] 2xl:h-[654px] "
+            />
+          </div>
           <li className="mt-3">
             <b>Error Boundary Handling: </b>
-            Better support for error handling.
+            Advanced error boundaries are built directly into the app router, so
+            you can easily manage errors that occur during navigation without
+            complex custom error handling.
           </li>
+
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            Error boundaries ensure users do not encounter blank screens during
+            navigation errors. Instead, they are redirected to an error page or
+            message.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>
+            If a user navigates to a page that does not exist, Next.js 15
+            displays an error message rather than a blank page, keeping users
+            engaged.
+          </li>
+
           <li className="mt-3">
             <b>Automatic Route Hierarchy: </b>
-            Builds hierarchical routes automatically.
+            This feature automatically organizes routes into a logical
+            hierarchy, making complex applications easier to manage and
+            navigate.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Explanation: </b>
+            Developers no longer need to manually configure child and parent
+            routes, as Next.js 15 arranges them based on directory structure.
+          </li>
+          <li className="mt-3 ml-10">
+            <b>Example Use Case: </b>
+            In a SaaS application with multiple account settings, automatic
+            hierarchy arranges sections like <b>/account/profile</b>,{" "}
+            <b> /account/billing</b>, etc., under one main route.
           </li>
         </ul>
       </TextContent>
-      <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
-        <Image
-          src="/image4.png"
-          alt="code-example"
-          height={200}
-          width={200}
-          className="lg:h-[434px] lg:w-[600px] w-[550px] h-[204px] md:h-[370px] 2xl:w-[1000px] 2xl:h-[650px]"
-        />
-      </div>
-      <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
-        <Image
-          src="/image5.png"
-          alt="code-example"
-          height={200}
-          width={200}
-          className="lg:h-[400px] lg:w-[600px] w-[550px] h-[167px] md:h-[370px] 2xl:w-[1000px] 2xl:h-[650px]"
-        />
-      </div>
+  
+      <HeadingH5 headingFive="Expanded Explanations:
+" />
+<TextContent>
+For each feature, these detailed explanations and use cases provide users with a deeper understanding of how Next.js 15 can be applied practically, making this blog a valuable resource. Readers will see the benefits clearly, understand how to implement them, and appreciate the step-by-step guidance and examples. This layout not only explains the features but also demonstrates how each one contributes to building faster, more efficient, and more user-friendly applications.
+
+</TextContent>
     </section>
     <div className="border-b-[1px] border-mainHeadingsColor dark:border-white dark:opacity-100 opacity-30 w-[70%] mx-auto mt-8 mb-11"></div>
     <section id="use-cases">
@@ -309,8 +473,8 @@ const BlogContent = () => (
         <ul className="list-disc ml-5">
           <li className="mt-3">
             <b>Use Case: </b>
-            Next.js 15s improved error boundaries prevent application crashes
-            by displaying custom error messages, ensuring a seamless experience.
+            Next.js 15s improved error boundaries prevent application crashes by
+            displaying custom error messages, ensuring a seamless experience.
             For example, in a SaaS app, users see a helpful error message
             instead of a blank screen.
           </li>
@@ -645,7 +809,7 @@ const BlogContent = () => (
       <ul className="list-disc ml-5 space-y-3">
         <li>
           <b>Testimonial: </b>
-        Next.js 15 has been a game changer for us. The{" "}
+          Next.js 15 has been a game changer for us. The{" "}
           <b>new routing system</b> and <b>server actions</b> have significantly
           reduced the time we spend on managing backend logic, allowing us to
           focus more on building features.
