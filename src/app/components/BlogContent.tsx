@@ -91,7 +91,7 @@ const BlogContent = () => (
         </ul>
       </div>
     </section>
-    {/* highlighted feautres */}
+ 
     <div className="border-b-[1px] border-mainHeadingsColor dark:border-white dark:opacity-100 opacity-30 w-[70%] mx-auto mt-8 mb-11"></div>
     <section id="features">
       <HeadingH3 headingThree="Highlighted Features of Next.js 15" />
@@ -139,15 +139,8 @@ const BlogContent = () => (
             Here, <b>HeavyComponent</b> will load only when required, reducing
             initial page load time.
           </li>
-          <div className="flex flex-col items-center justify-center w-[100%] mx-auto my-5">
-            <Image
-              src="/improve-code-splitting.png"
-              alt="code-example"
-              height={250}
-              width={400}
-              className="lg:h-[135px] lg:w-[468px] w-[550px] h-[70px] md:h-[150px] 2xl:w-[1000px] 2xl:h-[654px] "
-            />
-          </div>
+          <Image src="/improve-code-splitting.PNG" alt="" height={200} width={200} className="mx-auto lg:h-[130px] my-5 lg:w-[500px] h-[80px] w-[700px]"/>
+        
           <li className="mt-3">
             <b>Efficient Asset Caching: </b>
             With smarter caching strategies, Next.js 15 minimizes redundant
@@ -168,16 +161,6 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
-      {/*code example-1 */}
-      <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
-        <Image
-          src="/effiecient-assets-catching.png"
-          alt="code-example"
-          height={200}
-          width={200}
-          className="lg:h-[325px] lg:w-[500px] w-[550px] h-[120px] md:h-[300px] 2xl:w-[1000px] 2xl:h-[654px]"
-        />
-      </div>
       <HeadingH5 headingFive="Enhanced Server Actions: Power Up Your Backend" />
       <TextContent>
         Next.js 15 introduces powerful server actions that streamline
@@ -203,15 +186,8 @@ const BlogContent = () => (
             This example demonstrates how data is fetched server-side, so the
             component receives fully loaded data without additional API calls.
           </li>
-          <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
-            <Image
-              src="/enhance-server-action.png"
-              alt="code-example"
-              height={250}
-              width={400}
-              className="lg:h-[125px] lg:w-[400px] w-[550px] h-[80px] md:h-[180px] 2xl:w-[1000px] 2xl:h-[654px] brightness-110 contrast-more:z-30"
-            />
-          </div>
+           <Image src="/enhance-server-action.PNG" alt="" height={200} width={200} className="mx-auto h-[170px] my-5 w-[500px]"/>
+        
           <li className="mt-3">
             <b>Built for Scalability: </b>
             Next.js 15s server actions are designed to handle large amounts of
@@ -280,18 +256,7 @@ const BlogContent = () => (
             This setup dynamically renders each product page based on the
             product ID in the URL.
           </li>
-
-          <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
-            <Image
-              src="/new-router-feature.png"
-              alt="code-example"
-              height={250}
-              width={400}
-              // className="h-[160px] w-[450px]"
-              className="lg:h-[160px] lg:w-[450px] w-[550px] h-[90px] md:h-[200px] 2xl:w-[1000px] 2xl:h-[654px] brightness-110 contrast-more:z-30"
-            />
-          </div>
-
+    <Image src="/new-router-feature.PNG" alt="" height={200} width={200} className="mx-auto h-[120px] my-5 w-[500px]"/>
           <li className="mt-3">
             <b>Nested Routing Support: </b>
             Allows the creation of a hierarchy of routes, which simplifies
@@ -318,16 +283,6 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
-      <div className="flex flex-col items-center justify-center w-[70%] mx-auto my-5">
-        <Image
-          src="/nested-routing-support.png"
-          alt="code-example"
-          height={200}
-          width={200}
-          className="lg:h-[270px] lg:w-[600px] w-[400px] h-[100px] md:h-[200px] 2xl:w-[1000px] 2xl:h-[600px]"
-        />
-      </div>
-
       <HeadingH5 headingFive="Improved App Router: Simplified and Robust Navigation" />
       <TextContent>
         Next.js 15s enhanced app router offers a cleaner, more organized
@@ -354,7 +309,7 @@ const BlogContent = () => (
             with a single dynamic parameter, simplifying navigation across
             sections.
           </li>
-          <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
+          {/* <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
             <Image
               src="/improve-app-router.png"
               alt="code-example"
@@ -363,7 +318,8 @@ const BlogContent = () => (
               // className="h-[90px] w-[450px]"
               className="lg:h-[90px] lg:w-[500px] w-[1000px] h-[37px] md:h-[100px] 2xl:w-[1000px] 2xl:h-[654px] "
             />
-          </div>
+          </div> */}
+              <Image src="/improve-app-router.PNG" alt="" height={200} width={200} className="mx-auto h-[50px] my-5 w-[300px]"/>
           <li className="mt-3">
             <b>Error Boundary Handling: </b>
             Advanced error boundaries are built directly into the app router, so
