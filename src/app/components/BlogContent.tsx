@@ -138,7 +138,7 @@ const BlogContent = () => (
             initial page load time.
           </li>
           <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
-          <Image
+          <img
             src="/improve-code-splitting.PNG"
             alt="code-image"
             height={200}
