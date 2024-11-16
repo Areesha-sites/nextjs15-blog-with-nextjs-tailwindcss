@@ -91,7 +91,6 @@ const BlogContent = () => (
         </ul>
       </div>
     </section>
- 
     <div className="border-b-[1px] border-mainHeadingsColor dark:border-white dark:opacity-100 opacity-30 w-[70%] mx-auto mt-8 mb-11"></div>
     <section id="features">
       <HeadingH3 headingThree="Highlighted Features of Next.js 15" />
@@ -127,7 +126,6 @@ const BlogContent = () => (
             on user interactions, which makes loading times faster and enhances
             responsiveness.
           </li>
-
           <li className="mt-3 ml-10">
             <b>Explanation: </b>
             Code-splitting breaks the application into smaller chunks, loading
@@ -139,8 +137,15 @@ const BlogContent = () => (
             Here, <b>HeavyComponent</b> will load only when required, reducing
             initial page load time.
           </li>
-          <Image src="/improve-code-splitting.PNG" alt="" height={200} width={200} className="mx-auto lg:h-[130px] my-5 lg:w-[500px] h-[80px] w-[700px]"/>
-        
+          <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
+          <Image
+            src="/improve-code-splitting.PNG"
+            alt=""
+            height={200}
+            width={200}
+            className="mx-auto lg:h-[130px] my-5 lg:w-[500px] h-[80px] w-[700px]"
+          />
+          <div className="border-b-2 border-black  w-[60%] mx-auto mt-5 mb-7 opacity-50"></div>
           <li className="mt-3">
             <b>Efficient Asset Caching: </b>
             With smarter caching strategies, Next.js 15 minimizes redundant
@@ -186,8 +191,15 @@ const BlogContent = () => (
             This example demonstrates how data is fetched server-side, so the
             component receives fully loaded data without additional API calls.
           </li>
-           <Image src="/enhance-server-action.PNG" alt="" height={200} width={200} className="mx-auto h-[170px] my-5 w-[500px]"/>
-        
+          <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
+          <Image
+            src="/enhance-server-action.PNG"
+            alt=""
+            height={200}
+            width={200}
+            className="mx-auto h-[170px] my-5 w-[500px]"
+          />
+          <div className="border-b-2 border-black  w-[60%] mx-auto mt-5 mb-7 opacity-50"></div>
           <li className="mt-3">
             <b>Built for Scalability: </b>
             Next.js 15s server actions are designed to handle large amounts of
@@ -195,18 +207,16 @@ const BlogContent = () => (
             high-traffic environments, like news websites or financial
             dashboards.
           </li>
-
           <li className="mt-3 ml-10">
             <b>Explanation: </b>
             As data volumes grow, Next.js ensures efficient server performance
             and minimal latency.
           </li>
           <li className="mt-3 ml-10">
-            <b>Example Use Case: </b>A social media application with millions
-            of posts and user data requires scalable data fetching to manage
-            heavy user traffic seamlessly.
+            <b>Example Use Case: </b>A social media application with millions of
+            posts and user data requires scalable data fetching to manage heavy
+            user traffic seamlessly.
           </li>
-
           <li className="mt-3">
             <b>Reduced API Calls: </b>
             Fewer API calls between the client and server improve performance,
@@ -225,7 +235,6 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
-     
       <HeadingH6 headingSix="Explanation:" />
       <TextContent>
         This snippet shows a simple example of fetching data using server
@@ -256,7 +265,15 @@ const BlogContent = () => (
             This setup dynamically renders each product page based on the
             product ID in the URL.
           </li>
-    <Image src="/new-router-feature.PNG" alt="" height={200} width={200} className="mx-auto h-[120px] my-5 w-[500px]"/>
+          <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
+          <Image
+            src="/new-router-feature.PNG"
+            alt=""
+            height={200}
+            width={200}
+            className="mx-auto h-[120px] my-5 w-[500px]"
+          />
+          <div className="border-b-2 border-black  w-[60%] mx-auto mt-5 mb-7 opacity-50"></div>
           <li className="mt-3">
             <b>Nested Routing Support: </b>
             Allows the creation of a hierarchy of routes, which simplifies
@@ -275,7 +292,6 @@ const BlogContent = () => (
             categories, such as <b>/electronics/laptops</b>, improving
             organization and navigation.
           </li>
-
           <li className="mt-3">
             <b>Use Case Example: </b>A blogging platform where each category
             (e.g., Technology, Lifestyle) contains various posts. Nested routing
@@ -309,17 +325,15 @@ const BlogContent = () => (
             with a single dynamic parameter, simplifying navigation across
             sections.
           </li>
-          {/* <div className="flex flex-col items-center justify-center w-[90%] mx-auto my-5">
-            <Image
-              src="/improve-app-router.png"
-              alt="code-example"
-              height={250}
-              width={400}
-              // className="h-[90px] w-[450px]"
-              className="lg:h-[90px] lg:w-[500px] w-[1000px] h-[37px] md:h-[100px] 2xl:w-[1000px] 2xl:h-[654px] "
-            />
-          </div> */}
-              <Image src="/improve-app-router.PNG" alt="" height={200} width={200} className="mx-auto h-[50px] my-5 w-[300px]"/>
+          <div className="border-t-2 border-black  w-[37%] mx-auto mt-7 opacity-50"></div>
+          <Image
+            src="/improve-app-router.PNG"
+            alt=""
+            height={200}
+            width={200}
+            className="mx-auto h-[50px] my-5 w-[300px]"
+          />
+          <div className="border-b-2 border-black w-[37%] mx-auto mt-5 mb-7 opacity-50"></div>
           <li className="mt-3">
             <b>Error Boundary Handling: </b>
             Advanced error boundaries are built directly into the app router, so
@@ -359,13 +373,20 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
-  
-      <HeadingH5 headingFive="Expanded Explanations:
-" />
-<TextContent>
-For each feature, these detailed explanations and use cases provide users with a deeper understanding of how Next.js 15 can be applied practically, making this blog a valuable resource. Readers will see the benefits clearly, understand how to implement them, and appreciate the step-by-step guidance and examples. This layout not only explains the features but also demonstrates how each one contributes to building faster, more efficient, and more user-friendly applications.
 
-</TextContent>
+      <HeadingH5
+        headingFive="Expanded Explanations:
+"
+      />
+      <TextContent>
+        For each feature, these detailed explanations and use cases provide
+        users with a deeper understanding of how Next.js 15 can be applied
+        practically, making this blog a valuable resource. Readers will see the
+        benefits clearly, understand how to implement them, and appreciate the
+        step-by-step guidance and examples. This layout not only explains the
+        features but also demonstrates how each one contributes to building
+        faster, more efficient, and more user-friendly applications.
+      </TextContent>
     </section>
     <div className="border-b-[1px] border-mainHeadingsColor dark:border-white dark:opacity-100 opacity-30 w-[70%] mx-auto mt-8 mb-11"></div>
     <section id="use-cases">
@@ -666,7 +687,7 @@ For each feature, these detailed explanations and use cases provide users with a
       </TextContent>
       <HeadingH6 headingSix="Bonus Tip:" />
       <TextContent>
-        If you encounter any additional issues, check the{" "}
+        If you encounter any additional issues, check the
         <span className="text-links">official Next.js 15 migration guide </span>
         for detailed instructions.
       </TextContent>
