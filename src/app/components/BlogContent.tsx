@@ -140,7 +140,7 @@ const BlogContent = () => (
           <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
           <Image
             src="/improve-code-splitting.PNG"
-            alt=""
+            alt="code-image"
             height={200}
             width={200}
             className="mx-auto lg:h-[130px] my-5 lg:w-[500px] h-[80px] w-[700px]"
