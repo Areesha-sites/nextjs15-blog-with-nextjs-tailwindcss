@@ -137,15 +137,15 @@ const BlogContent = () => (
             Here, <b>HeavyComponent</b> will load only when required, reducing
             initial page load time.
           </li>
-          <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
-          <img
-            src="/improve-code-splitting.PNG"
-            alt="code-image"
+          <div className="border-t-[2px] border-black w-[96%] md:w-[63%] lg:w-[65%] xl:w-[58%] mx-auto mt-[15px] opacity-40 xxl:w-[50%]"></div>
+          <Image
+            src="/improve-code-splitting.png"
+            alt="code-snippets"
             height={200}
             width={200}
-            className="mx-auto lg:h-[130px] my-5 lg:w-[500px] h-[80px] w-[700px]"
+            className="mx-auto h-[70px] my-3 w-[250px] md:h-[110px] md:w-[380px] xl:h-[140px] xl:w-[500px] lg:h-[130px] lg:w-[450px]"
           />
-          <div className="border-b-2 border-black  w-[60%] mx-auto mt-5 mb-7 opacity-50"></div>
+           <div className="border-b-[2px] border-black w-[96%] md:w-[63%] lg:w-[65%] xl:w-[58%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[50%]"></div>
           <li className="mt-3">
             <b>Efficient Asset Caching: </b>
             With smarter caching strategies, Next.js 15 minimizes redundant
@@ -166,6 +166,15 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
+      <div className="border-t-[2px] border-black w-[70%] md:w-[50%] lg:w-[40%] mx-auto mt-[15px] opacity-40 xxl:w-[35%]"></div>
+          <Image
+            src="/efficient-assets-caching.png"
+            alt="code-snippets"
+            height={200}
+            width={200}
+            className="mx-auto h-[130px] my-3 w-[230px] md:h-[180px] md:w-[380px] xl:h-[240px] xl:w-[500px] lg:h-[220px] lg:w-[450px]"
+          />
+           <div className="border-b-[2px] border-black w-[70%] md:w-[50%] lg:w-[40%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[35%]"></div>
       <HeadingH5 headingFive="Enhanced Server Actions: Power Up Your Backend" />
       <TextContent>
         Next.js 15 introduces powerful server actions that streamline
@@ -191,15 +200,15 @@ const BlogContent = () => (
             This example demonstrates how data is fetched server-side, so the
             component receives fully loaded data without additional API calls.
           </li>
-          <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
+          <div className="border-t-[2px] border-black w-[98%] md:w-[60%] lg:w-[60%] mx-auto mt-[15px] opacity-40 xxl:w-[52%]"></div>
           <Image
-            src="/enhance-server-action.PNG"
-            alt=""
+            src="/enhance-server-action.png"
+            alt="code-snippets"
             height={200}
             width={200}
-            className="mx-auto h-[170px] my-5 w-[500px]"
+            className="mx-auto h-[60px] my-3 w-[300px] md:h-[100px] md:w-[360px] xl:h-[120px] xl:w-[500px] lg:h-[110px] lg:w-[400px]"
           />
-          <div className="border-b-2 border-black  w-[60%] mx-auto mt-5 mb-7 opacity-50"></div>
+           <div className="border-b-[2px] border-black w-[98%] md:w-[60%]  lg:w-[60%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[52%]"></div>
           <li className="mt-3">
             <b>Built for Scalability: </b>
             Next.js 15s server actions are designed to handle large amounts of
@@ -265,15 +274,15 @@ const BlogContent = () => (
             This setup dynamically renders each product page based on the
             product ID in the URL.
           </li>
-          <div className="border-t-2 border-black  w-[60%] mx-auto mt-7 opacity-50"></div>
+          <div className="border-t-[2px] border-black w-[98%] md:w-[60%] lg:w-[60%] mx-auto mt-[15px] opacity-40 xxl:w-[55%]"></div>
           <Image
-            src="/new-router-feature.PNG"
-            alt=""
+            src="/new-router-feature.png"
+            alt="code-snippets"
             height={200}
             width={200}
-            className="mx-auto h-[120px] my-5 w-[500px]"
+            className="mx-auto h-[80px] my-3 w-[300px] md:h-[100px] md:w-[360px] xl:h-[140px] xl:w-[500px] lg:h-[110px] lg:w-[400px]"
           />
-          <div className="border-b-2 border-black  w-[60%] mx-auto mt-5 mb-7 opacity-50"></div>
+           <div className="border-b-[2px] border-black w-[98%] md:w-[60%]  lg:w-[60%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[55%]"></div>
           <li className="mt-3">
             <b>Nested Routing Support: </b>
             Allows the creation of a hierarchy of routes, which simplifies
@@ -325,15 +334,15 @@ const BlogContent = () => (
             with a single dynamic parameter, simplifying navigation across
             sections.
           </li>
-          <div className="border-t-2 border-black  w-[37%] mx-auto mt-7 opacity-50"></div>
+          <div className="border-t-[2px] border-black  w-[95%] md:w-[50%] lg:w-[40%] mx-auto mt-[15px] opacity-40 xxl:w-[40%]"></div>
           <Image
-            src="/improve-app-router.PNG"
+            src="/improve-app-router.png"
             alt=""
             height={200}
             width={200}
-            className="mx-auto h-[50px] my-5 w-[300px]"
+            className="mx-auto h-[50px] my-3 w-[250px] xl:h-[60px] xl:w-[350px]"
           />
-          <div className="border-b-2 border-black w-[37%] mx-auto mt-5 mb-7 opacity-50"></div>
+          <div className="border-b-[2px] border-black w-[95%] md:w-[50%]  lg:w-[40%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[40%]"></div>
           <li className="mt-3">
             <b>Error Boundary Handling: </b>
             Advanced error boundaries are built directly into the app router, so
@@ -373,10 +382,8 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
-
       <HeadingH5
-        headingFive="Expanded Explanations:
-"
+        headingFive="Expanded Explanations:"
       />
       <TextContent>
         For each feature, these detailed explanations and use cases provide
