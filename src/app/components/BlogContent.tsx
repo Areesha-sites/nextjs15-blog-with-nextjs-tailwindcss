@@ -166,15 +166,7 @@ const BlogContent = () => (
           </li>
         </ul>
       </TextContent>
-      <div className="border-t-[2px] border-black w-[70%] md:w-[50%] lg:w-[40%] mx-auto mt-[15px] opacity-40 xxl:w-[35%]"></div>
-          <Image
-            src="/efficient-assets-caching.png"
-            alt="code-snippets"
-            height={200}
-            width={200}
-            className="mx-auto h-[130px] my-3 w-[230px] md:h-[180px] md:w-[380px] xl:h-[240px] xl:w-[500px] lg:h-[220px] lg:w-[450px]"
-          />
-           <div className="border-b-[2px] border-black w-[70%] md:w-[50%] lg:w-[40%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[35%]"></div>
+      
       <HeadingH5 headingFive="Enhanced Server Actions: Power Up Your Backend" />
       <TextContent>
         Next.js 15 introduces powerful server actions that streamline
@@ -206,7 +198,7 @@ const BlogContent = () => (
             alt="code-snippets"
             height={200}
             width={200}
-            className="mx-auto h-[60px] my-3 w-[300px] md:h-[100px] md:w-[360px] xl:h-[120px] xl:w-[500px] lg:h-[110px] lg:w-[400px]"
+            className="mx-auto h-[70px] my-3 w-[300px] md:h-[100px] md:w-[360px] xl:h-[120px] xl:w-[500px] lg:h-[110px] lg:w-[400px]"
           />
            <div className="border-b-[2px] border-black w-[98%] md:w-[60%]  lg:w-[60%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[52%]"></div>
           <li className="mt-3">
@@ -280,7 +272,7 @@ const BlogContent = () => (
             alt="code-snippets"
             height={200}
             width={200}
-            className="mx-auto h-[80px] my-3 w-[300px] md:h-[100px] md:w-[360px] xl:h-[140px] xl:w-[500px] lg:h-[110px] lg:w-[400px]"
+            className="mx-auto h-[90px] my-3 w-[300px] md:h-[100px] md:w-[360px] xl:h-[140px] xl:w-[500px] lg:h-[110px] lg:w-[400px]"
           />
            <div className="border-b-[2px] border-black w-[98%] md:w-[60%]  lg:w-[60%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[55%]"></div>
           <li className="mt-3">
@@ -340,7 +332,7 @@ const BlogContent = () => (
             alt=""
             height={200}
             width={200}
-            className="mx-auto h-[50px] my-3 w-[250px] xl:h-[60px] xl:w-[350px]"
+            className="mx-auto h-[60px] my-3 w-[250px] xl:h-[60px] xl:w-[350px]"
           />
           <div className="border-b-[2px] border-black w-[95%] md:w-[50%]  lg:w-[40%] mx-auto mt-[15px] mb-7 opacity-40 xxl:w-[40%]"></div>
           <li className="mt-3">
